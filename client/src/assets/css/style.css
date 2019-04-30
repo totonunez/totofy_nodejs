@@ -1,0 +1,140 @@
+html, body{
+    margin: 0px;
+    height: 100%;
+    background: #eee;
+    font-size: 12px;
+
+}
+
+.actived{
+border-bottom: 4px solid #84BD00;
+padding-bottom: 6px;
+}
+
+.central{
+    height: 100%;
+    overflow: scroll;
+}
+
+.seguro{
+    margin-top:-30px;
+    background: #222326;
+    width: 90%;
+    position: absolute;
+    height: 40px;
+}
+
+.head-title{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    display: block
+}
+
+.navigation{
+    text-align: center;
+    color : white;
+    background: #1C1C1F;
+    height: 100%; 
+}
+
+.navigation a{
+
+    margin-top:20px;
+    margin-bottom:20px;
+    display: block;
+    text-decoration: none;
+    color : papayawhip;
+    width: 100%;
+}
+
+.navigation a:hover{
+    color: white;
+}
+
+.navigation .glyphicon{
+    font-size: 22px;
+    display: block;
+    width: 100%;
+    color: papayawhip;
+}
+
+#user_logged .user-image{
+background:  #eee;
+border-radius: 100px;
+height: 40px;
+width: 40px;
+margin :0px auto;
+margin-top: 30px;
+overflow: hidden;
+
+}
+
+#user_logged{
+    text-decoration: center;
+    background: #1C1C1F;
+    position: absolute;
+    bottom:0px;
+    border-top:1px solid #444;
+    width: 75%;
+}
+
+.btn-logout{
+    cursor:pointer;
+}
+
+.artist_image_for_edit img{
+    width: 150px;    
+}
+
+.artist-list{
+    margin:0px;
+    padding:0px;
+    margin-top:30px;
+    list-style:none;
+}
+
+.artist-item{
+    width: 23%;
+    margin: 0px;
+    padding: 0px;
+    height: 317px;
+    border:1px solid #444;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+.artist-item .artist-image {
+    height: 245px;
+    width: 100%;
+    overflow: hidden;
+    background: black;
+}
+
+.artist-item .artist-image img{
+    height: 100%;
+}
+
+.artist-item .artist-name {
+    color:white;
+    padding :15px;
+    background: #222326;
+}
+
+.artist-item .artist-name a{
+    color: white;
+}
+
+#artist-head-card .image{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+    margin-right: 30px;
+}
+
+#artist-head-card .image img{
+    height: 130px;
+}
+
